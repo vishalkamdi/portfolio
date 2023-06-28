@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <!--=================== Google Fonts ====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+
+    <!--=================== Remixicons ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=================== SwiperJS CSS ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+    <!--=================== Main CSS ====================-->
+    <link rel="stylesheet" href="main.css">
+
+
+
+</head>
+
+<body>
+
+    <!--=================== Header ====================-->
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="nav__brand">
+                    <i class="ri-code-s-slash-line"></i>Developer
+                </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#hero" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#service" class="nav__link">Services</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">Projects</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!--=================== main ====================-->
+    <main class="main">
+        <!--=================== Hero ====================-->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="d-grid hero__wrapper">
+                    <div class="hero__content">
+                        <h1 class="hero__title">Hi, I am Vishal, <br>I am a<br><span id="multiple-text"> </span>.</h1>
+                        <p class="hero__description">As an aspiring web developer, I am passionate about creating dynamic and user-friendly websites. With a solid foundation in HTML, CSS, and JavaScript, I strive to build visually appealing and responsive interfaces. Eager to learn and adapt to new technologies, I am dedicated to delivering high-quality code and continuously improving my skills. My goal is to contribute to the development of innovative and impactful web solutions.</p>
+                        <div class="hero__info">
+                            <!-- <div class="hero__info-wrapper">
+                                <p class="hero__info-number">07</p>
+                                <h2 class="hero__info-title">Years<br>Experience</h2>
+                            </div> -->
+                            <a href="https://drive.google.com/file/d/1dHR1_uPTuGdPfHujaozHnCV7jV2-SEUx/view?usp=drive_link"class="btncv ">Download CV</a>
+                            <div class="hero__info-wrapper">
+                                <p class="hero__info-number">10+</p>
+                                <h2 class="hero__info-title">Projects<br>Completed</h2>
+                            </div>
+                            <!-- <div class="hero__info-wrapper">
+                                <p class="hero__info-number">03+</p>
+                                <h2 class="hero__info-title">Companies<br> Worked</h2>
+                            </div> -->
+                        </div>
+                    </div>
+                    <img src="img/hero.jpg" alt="Vishal" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <!--=================== About ====================-->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle">Who am I</span>
+                </div>
+                <div class="d-grid about__wrapper">
+                    <div class="about__content">
+                        <h3 class="about__title">I'm a  Software Developer.</h3>
+                        <p class="about__description">As a recent graduate in B.Tech Computer Science, I am equipped with a strong foundation in computer science principles and practical skills. Throughout my academic journey, I have gained knowledge in areas such as algorithms, data structures, software development, and database management. I have hands-on experience in many programming languages . I am eager to apply my theoretical knowledge to real-world projects and further enhance my skills in web development, software engineering, or data analysis. With a passion for learning and a drive to excel, I am seeking opportunities to contribute to the industry while continuously growing as a professional in the field of computer science.</p>
+                        <a href="#" class="btn btn--primary">Know More</a>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills__title">Technologies I've been working with:</h3>
+                        <div class="skills__wrapper">
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Backend</h4>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Java</li>
+                                   
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Node.js</li>
+                                    <!-- <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Firebase</li> -->
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        MongoDB</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="skills__content">
+                                <h4 class="skills__subtitle">Frontend</h4>
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        HTML</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        CSS/Sass</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        JavaScript</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Bootstrap</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        React</li>
+                                    <!-- <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Vue.js</li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        
+
+        <!--=================== services ====================-->
+        <section id="service" class="section service">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Services</h2>
+                    <span class="section__subtitle">What I do</span>
+                </div>
+                <div class="d-grid service__wrapper">
+                    <!--========= service card 1 =========-->
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-layout-4-fill"></i>
+                        </div>
+                        <h3 class="service__title">Frontend<br>Development</h3>
+                        <a href="#" class="service__link">Know More</a>
+                    </div>
+                    <!--========= service card 2 =========-->
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-code-s-slash-line"></i>
+                        </div>
+                        <h3 class="service__title">Backend<br> Development</h3>
+                        <a href="#" class="service__link">Know More</a>
+                    </div>
+                    <!--========= service card 3 =========-->
+                    <div class="service__card">
+                        <div class="service__icon">
+                            <i class="ri-pen-nib-fill"></i>
+                        </div>
+                        <h3 class="service__title">UI/UX<br> Design</h3>
+                        <a href="#" class="service__link">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=================== Projects ====================-->
+        <section id="project" class="section project">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Projects</h2>
+                    <span class="section__subtitle">My recent work</span>
+                </div>
+                <div class="d-grid project__wrapper">
+                    <!--============== project 1 =============-->
+                    <div class="project__content">
+                        <img src="img/project1.jpg" alt="Agency Website" class="project__img">
+                        <h3 class="project__title">Online Exam Website</h3>
+                        <p class="project__description">"Experience an efficient online exam platform developed with HTML, CSS, Python Django, and MySQL. Engage in interactive exams with a user-friendly interface, secure data storage, real-time result generation, and comprehensive administration features, ensuring a seamless and reliable examination process."</p>
+                        <a href="https://github.com/vishalkamdi" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!--============== project 2 =============-->
+                    <div class="project__content">
+                        <img src="img/project2.jpg" alt="Crypto Application " class="project__img">
+                        <h3 class="project__title">weather forcast website</h3>
+                        <p class="project__description">"Discover a dynamic weather forecast website built with HTML, CSS, and JavaScript, leveraging real-time data from an API. Experience an intuitive user interface, interactive features, and accurate weather information, allowing users to stay informed and plan accordingly for their daily activities and events."</p>
+                        <a href="https://github.com/vishalkamdi" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <!--============== project 3 =============-->
+                    <div class="project__content">
+                        <img src="img/project3.jpg" alt="Ecommerce Website" class="project__img">
+                        <h3 class="project__title">shopping Website</h3>
+                        <p class="project__description">"A dynamic shopping website built with HTML, CSS, and JavaScript, providing an interactive user interface, visually appealing design, seamless navigation, and enhanced functionality for an enjoyable and convenient online shopping experience.".</p>
+                        <a href="https://github.com/vishalkamdi" class="project__link">View Project
+                            <i class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+        <!--=================== Contact ====================-->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="d-grid contact__wrapper">
+                    <div class="contact__content">
+                        <h2 class="contact__title">Interested in working together? Let's talk</h2>
+                        <p class="contact__description">
+                            A concise description of contact would be "Communication or interaction between individuals or parties to exchange information, ideas, or establish connections."
+                        </p>
+                    </div>
+                    <div class="contact__btn">
+                        <a href="https://www.linkedin.com/in/vishal-kamdi-b25baa1a0/" class="btn btn--secondary">Get in touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=================== footer ====================-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="d-grid footer__wrapper">
+                <div class="footer__content">
+                    <h4 class="footer__title">Follow Me</h4>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="https://www.linkedin.com/in/vishal-kamdi-b25baa1a0/" class="footer__social-link">
+                                <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://instagram.com/vk_2901_?igshid=MzRlODBiNWFlZA==" class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://twitter.com/VishalKamdi5?t=YIxRCn20cavGYTEJkNqAaw&s=01" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </li>
+                        <li class="footer__social-item">
+                            <a href="https://github.com/vishalkamdi" class="footer__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__title">Email Me</h4>
+                    <a href="#" class="footer__contact">vishalkamdi2901@gmail.com</a>
+                </div>
+                <div class="footer__content">
+                    <h4 class="footer__title">Call Me</h4>
+                    <a href="#" class="footer__contact">(+91) 9111623749 </a>
+                </div>
+            </div>
+            <p class="footer__copyright">&copy; @vishal kamdee. All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <!--=================== SwiperJS  ====================-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--=================== ScrollReveal ==================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!--=================== Main JS ====================-->
+    <script src="main.js"></script>
+
+
+
+</body>
+
+</html>
